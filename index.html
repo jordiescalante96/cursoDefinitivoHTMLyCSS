@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Esta pagina contrendra fotos de perros">
+        <meta name="robots" content="index,follow">
+        <title>Es mi página</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+        <h1 id="titulo_principal">Soy una lista del super!!!</h1>
+        <main>
+            <ul>
+                <li id="nombre_frutas">Frutas</li>
+            <ol>
+                <li>Manzana</li>
+                <section>
+                    <figure>
+                        <img src="./PICS/manzana.jpg" alt="Es una imagen de unas manzanas" width="100px">
+                        <figcaption>Manzanas listas</figcaption>
+                    </figure>
+                </section>
+                <li>Platano</li>  
+                <section>
+                    <figure>
+                        <img src="./PICS/platanos.jpg" alt="Es una imagen de unos platanos" width="200px">
+                        <figcaption>Platanos a la venta</figcaption>
+                    </figure>
+                </section>
+            </ol>
+            </ul>
+            <ul>
+                <li>Carnes</li>
+            <ol>
+                <li>Pollo</li>
+                <section>
+                    <figure>
+                        <img src="./PICS/pollo.jpg" alt="Es la imagen de pollo" width="200px">
+                        <figcaption>Pollo horneado</figcaption>
+                    </figure>
+                </section>
+                <li>Carne molida</li>
+                <section>
+                    <figure>
+                        <img src="./PICS/carne_molida.jpg" alt="Es una imagen de carne molida" width="200px">
+                        <figcaption>Carne recien molida</figcaption>
+                    </figure>
+                </section>
+            </ol>
+            </ul>
+            <ul>
+                <li>Comidas favoritas</li>  
+                <ol>
+                    <li>Pizza</li>
+                    <section>
+                        <figure>
+                            <img src="./PICS/pizza.jpg" alt="Es la imagen de una pizza" width="200px">
+                            <figcaption>Rebanadas de pizza</figcaption>
+                        </figure>
+                    </section>
+                    <li>
+                    <a href="https://www.diariamenteali.com/receta/lasagna_de_carne_con_salsa_roja_completa_don_vittorio">Lasagna</a>
+                    </li>
+                    <section>
+                        <figure>
+                            <img src="./PICS/lasagna.jpg" alt="Es la imagen de una lasagna" width="200px">
+                            <figcaption>Porción de lasagna</figcaption>
+                        </figure>
+                    </section>
+                    <h2>Trailer de vengadores</h2>
+                    <section>
+                        <video src="./Video/endgame.mp4" controls preload="auto" width="500px"></video>
+                    </section>
+                </ol>
+            </ul>
+            <h1>Selección</h1>
+                <span>¿Que fruta deseas?</span>
+                <input list="frutas">
+                <datalist id="frutas">
+                   <option value="Manzana">Manzana</option>
+                    <option value="Platano">Platano</option>
+                </datalist>
+                <input type="submit">
+                <form action="">
+                    <label for="carnes">
+                        <span>¿Que carnes deseas?</span>
+                        <input type="text" id="carnes" name="carnes" placeholder="La carne que quieres" required>
+                    </label>
+                    <button>Enviar</button>
+                </form>
+        </main>
+    </body>
+</html>
